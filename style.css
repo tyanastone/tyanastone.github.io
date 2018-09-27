@@ -31,36 +31,26 @@ main{
     color: #fff;
     margin: 0 auto 0 auto;
 }
-html,
-body {
-    height: 100%;
+.box5{
+   display: flex;
+   align-items: flex-start;
 }
-
-/* body {
-    background: #fff500;
-} */
-
-.container {
-    height: 100%;
-    position: relative;
+/*used this to align title and add font and make size bigger and fix width */
+.wrap{
+    width: 950px;
+    text-align: center;
+    font-size: 200px;
+    height: 500px;
+    font-family: supernatural knight;
 }
-
-.svg-clipped {
-    width: 640px;
-    height: 640px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -70px 0 0 -320px;
-    -webkit-clip-path: url(#svgPath);
-    clip-path: url(#svgPath);
-    border: solid 3px black;
-}
-
-.svg-clipped:hover {
-    -webkit-clip-path: url(#svgHover);
-    clip-path: url(#svgHover);
-    width: 640px;
+/*used this to place animation inside of letters, add background image of fire, stretched it out to fit, made sure it didn't repeat */
+span{
+    background: url('cheering.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 .wrapper{
     height: 800px;
