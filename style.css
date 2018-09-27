@@ -32,8 +32,11 @@ main{
     margin: 0 auto 0 auto;
 }
 .box5{
+    height: 500px;
+    width: 500px;
+    /* border: solid; */
    display: flex;
-   flex-direction:row;
+   align-items: center;
 justify-content:center;
 }
 /*used this to align title and add font and make size bigger and fix width */
