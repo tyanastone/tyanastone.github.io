@@ -62,3 +62,16 @@ body {
     clip-path: url(#svgHover);
     width: 640px;
 }
+.wrapper{
+    height: 800px;
+    display: flex;
+    
+justify-content: center;
+align-items: flex-end;
+}
+.box{
+    border: solid;
+    height:200px;
+    width: 200px;
+    
+}
