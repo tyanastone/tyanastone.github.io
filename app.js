@@ -1,3 +1,7 @@
+window.addEventListener("load", function(){
+    var node = document.querySelector("[data-loading]");
+    node.setAttribute("data-loading","complete");
+});
 window.addEventListener("scroll", function(){
     var speed = 5;
     var size = 100+(window.scrollY/speed);
