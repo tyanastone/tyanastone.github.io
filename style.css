@@ -13,7 +13,7 @@ header{
     display: block;
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
     overflow: hidden;
     background-image: url('mypic.jpg');
@@ -21,13 +21,44 @@ header{
     background-size: 100% 100%;
 }
 h1{
-    font-size: 6em;
-    color: #c00;
-    text-shadow: 2px 2px #000;
+    font-size: 3em;
+    color: white;
+    text-shadow: 3px 3px #000;
 }
 main{
     width: 50%;
     font-size: 3em;
     color: #fff;
     margin: 0 auto 0 auto;
+}
+html,
+body {
+    height: 100%;
+}
+
+/* body {
+    background: #fff500;
+} */
+
+.container {
+    height: 100%;
+    position: relative;
+}
+
+.svg-clipped {
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -70px 0 0 -320px;
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+    border: solid 3px black;
+}
+
+.svg-clipped:hover {
+    -webkit-clip-path: url(#svgHover);
+    clip-path: url(#svgHover);
+    width: 640px;
 }
