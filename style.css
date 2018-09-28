@@ -1,4 +1,4 @@
-[data-loading]{
+/* [data-loading]{
     position: fixed;
     display: block;
     width: 100vw;
@@ -50,20 +50,10 @@
 }
 @keyframes close{
     to{z-index: -100;}
-}
-body{
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: silver;
-    color: #000;
-    padding-bottom: 300%;
-}
+} */
+ 
 
-.ripple > *{
+/* .ripple > *{
     display: inline-block;
     text-shadow: 0 0 0 #fff;
     color: transparent;
@@ -85,6 +75,17 @@ body{
         text-shadow: 0 0 0 #fff;
         opacity: 1;
     }
+}  */
+body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: silver;
+    color: #000;
+    padding-bottom: 300%;
 }
 header{
     display: block;
