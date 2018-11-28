@@ -1,4 +1,4 @@
-/* [data-loading]{
+[data-loading]{
     position: fixed;
     display: block;
     width: 100vw;
@@ -53,7 +53,7 @@
 } */
  
 
-/* .ripple > *{
+.ripple > *{
     display: inline-block;
     text-shadow: 0 0 0 #fff;
     color: transparent;
@@ -75,7 +75,7 @@
         text-shadow: 0 0 0 #fff;
         opacity: 1;
     }
-}  */
+} 
 body{
     display: block;
     width: 100%;
@@ -94,7 +94,7 @@ header{
     height: 80vh;
     text-align: center;
     overflow: hidden;
-    background-image: url('mypic.jpg');
+    background-image: url('profpic.jpg');
    background-position: center;
     background-size: 100% 100%;
 }
@@ -112,7 +112,7 @@ main{
 .box5{
     height: 500px;
     width: 500px;
-    /* border: solid; */
+    /* border: solid;
    display: flex;
    align-items: center;
 justify-content:center;
