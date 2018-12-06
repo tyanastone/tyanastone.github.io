@@ -20,7 +20,11 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </head>
 
   <body id="page-top">
@@ -69,7 +73,10 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
+              <!-- <img src="profpic.JPG" alt="my picture" class="img-thumbnail" align="left" style="height:200px;" > -->
+              <img src="profpic.JPG" alt="" class="circle responsive-img" id="profPic" style="height:200px;"> 
             <h2>About Me:</h2>
+            
             <p class="lead mb-5">I am a full stack developer that lives, breathes and sleeps code. I have skills in both the back-end web applications from express to node.js and the front-end applications from html to javascript. If you need someone with ambitious ideas and results, no need to look any longer, she’s right here! In my previous life I was a restaurant server, where I was taking and delivering orders and making sure guest received their food with great quality and care, that commitment still remains today where I pay attention to clients needs and use problem-solving tactics to ensure they have the best quality product!  </p>
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What I Offer</a>
           </div>
@@ -234,20 +241,33 @@
     <!-- Call to Action -->
     <section class="content-section bg-primary text-white">
       <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+        <h2 class="mb-4">Contact Me</h2>
+        <!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
+        <class="btn btn-xl btn-dark">Look at Me!</a> -->
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ml-auto">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-phone"></i>
+            </span>
+            <h4>
+              <strong>Phone</strong>
+            </h4>
+            <p class="text-faded mb-0">678-571-0807</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 mr-auto">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <a href="mailto:tyana.stone@gmail.com"><i class="fas fa-envelope"></i></a>
+            </span>
+            <h4>
+              <strong>Email</strong>
+            </h4>
+            <a href="mailto:tyana.stone@gmail.com"><p class="text-faded mb-0">tyana.stone@gmail.com</p></a>
+          </div>
       </div>
+      
     </section>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section>
+    
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -255,20 +275,21 @@
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
+              <img src="img/galogo2.png" class="ga" style="height:33px;">
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/tyana-stone/">
               <i class="icon-social-linkedin"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle text-white" href="https://github.com/tyanastone">
               <i class="icon-social-github"></i>
             </a>
           </li>
         </ul>
+        
         <p class="text-muted small mb-0">Copyright &copy; Tyana Stone 2018</p>
       </div>
     </footer>
